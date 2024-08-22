@@ -1,8 +1,10 @@
 #p02-area-círculo - calcula el área de un círculo
 
 import math
+
 print("Calculando el area de un círculo : \n")
-print("Dame el radio del círculo")
+print("Dame el radio del círcul: ")
+
 radio = float( input() )
 #area = 3.1416 * radio * radio 
 area = math.pi *radio **2

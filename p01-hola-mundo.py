@@ -1,5 +1,7 @@
 #hola-mundo - Recibe datos del usuario y los imprime en pantalla
 
+print("Leyendo datos y enviando un saludo:\n")
+
 nombre = input("Ingresa tu Nombre ")
 edad = input ("Edad ")
 peso = input ("Peso ")

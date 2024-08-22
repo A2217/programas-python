@@ -3,12 +3,13 @@
 - Nombre: Arturo Molina Almaraz
 - Correo: armoal2008@hotmail.com
 
-## Actividad 1
-- Programa 1
-- Programa 2
-- Programa 3
-
 ## Actividad 2
+- p01-hola-mundo
+- p02-area-circulo
+- p03-area-triangulo
+- p04-paga-trabajador
+
+## Actividad 3
 - Programa 4
 - Programa 5
 - Programa 6
