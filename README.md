@@ -10,6 +10,7 @@
 - p04-paga-trabajador
 
 ## Actividad 3
-- Programa 4
-- Programa 5
-- Programa 6
+- p05-promedio-de-calificaciones
+- p06-operaciones-matematicas
+- p07-funciones-trigonometricas
+- p08-dividir-cifras
