@@ -8,4 +8,4 @@ while año > 0:
     suma = suma + (año % 10)
     año = año // 10
 
-print(f"El número mágico es: {suma}") 
+print(f"Tu número de la suerte es: {suma}") 
