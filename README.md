@@ -29,4 +29,5 @@
 - p15-verificar-numero
 - p16-verificar-suma
 - p17-convertir-temperaturas
+- p17-convertir-temperaturas-v2
 - p18-paga-trabajador-v2
