@@ -13,3 +13,5 @@ if c1 < 8 or c2 < 8 :
     print("solo aceptamos alumnos con calificaciones mayores a 8")
 else :
     print(f"{nombre} bienvenid@ a la Universidad Patito, tu edad {edad} y calificaciones {c1} y {c2} lo permiten")
+
+print("Gracias por utilizar el programa")
