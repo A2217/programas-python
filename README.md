@@ -50,7 +50,10 @@
 ## Actividad 6
 - p29-numeros-1-100
 - p29-numeros-1-100V2
+- p29-numeros-1-100V3
 - p30-numeros-100-1
+- p30-numeros-100-1V2
+- p30-numeros-100-1V3
 - p31-numeros-1-200-10-(sentencia continue)
 - p32-numeros-suma-100-(sentencia break)
 - p33-conteo-numeros
