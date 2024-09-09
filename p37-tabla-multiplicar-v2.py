@@ -1,8 +1,9 @@
 # Imprime las tablas de 1 a n, hasta m
 
 while(True):
-    n = int(input("De cuál número quieres imprimir su tabla de multiplicar?: "))
-    m = int(input("Cuántas multiplicaciones quieres imprimir?:  "))
+    print("Se imprimiran las tablas de multiplicar desde 1 a N")
+    n = int(input("Hasta cuál número quieres imprimir su tabla de multiplicar?: "))
+    m = int(input("Cuántas multiplicaciones quieres imprimir en cada tabla?:  "))
     t=1
 
     while t <= n:

@@ -1,7 +1,7 @@
 # Calcula la conjetura de Collatz
 
 while(True):
-
+    
     print("Imprime la conjetura de collatz")
     n = int(input("Ingresa un número= "))
     pasos = int(0)

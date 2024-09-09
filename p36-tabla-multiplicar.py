@@ -2,7 +2,7 @@
 while(True):
 
     t = int(input("De cuál número quieres imprimir su tabla de multiplicar?: "))
-    n = int(input("Cuántas multiplicaciones quieres imprimir?:  "))
+    n = int(input("Hasta cuál número quieres imprimir?:  "))
     c = 1
 
     while( c <= n):

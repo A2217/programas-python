@@ -14,6 +14,7 @@ while(True):
         if n == num_sec:
 
             print(f"\nFelicidades! Adivinaste el número en {intentos} intentos.")
+            intentos = 0
             break
 
         elif n < num_sec:
