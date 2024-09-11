@@ -5,9 +5,7 @@ print("Sistema de inscripción Congreso de Sistemas")
 
 total_ventas_dia = 0  
 
-while True:
-    print("\nControl de inscripción al evento académico de la Universidad Patito")
-    
+while True:        
     print("\nSelecciona el tipo de usuario:")
     print("[1] Alumno $100")
     print("[2] Trabajador $200")
@@ -24,7 +22,7 @@ while True:
         precio_usuario = 500
         nombre_usuario = "Docente"
     else:
-        print("Tipo de usuario inválido. Reinicia el proceso.")
+        print("**Error. Tipo de usuario inválido. Reinicia el proceso**")
         continue
     
     print("\nSelecciona el tipo de paquete:")
@@ -43,10 +41,10 @@ while True:
         precio_paquete = 900
         nombre_paquete = "Con kit de acceso"
     else:
-        print("Tipo de paquete inválido. Reinicia el proceso.")
+        print("**Error. Tipo de paquete inválido. Reinicia el proceso**")
         continue
     
-    cantidad = int(input("Cantidad? "))
+    cantidad = int(input("\nCantidad de inscripciones? "))
     
     subtotal = (precio_usuario + precio_paquete) * cantidad
     
