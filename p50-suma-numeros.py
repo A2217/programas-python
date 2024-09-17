@@ -8,7 +8,7 @@ while(True):
     suma = 0
 
     for i in range(1,c+1):
-        n = int(input(f"Número {i} ? "))
+        n = int(input(f"Número {i}: "))
         suma += n
 
     print(f"\nLa suma es {suma}")

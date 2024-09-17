@@ -1,7 +1,7 @@
 # Imprime multiplos m entre 1 y n
 print("Contando hasta n en multiplos de m")
-m = int(input("Multiplos de m ? "))
-n = int(input("De 1 hasta n ? "))
+m = int(input("Multiplos de m: "))
+n = int(input("De 1 hasta n: "))
 cm = s = 0
 
 for i in range(m, n+1):
