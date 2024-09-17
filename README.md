@@ -75,3 +75,14 @@
 
 ## Primer examen parcial
 - p45–primer-examen-parcial
+
+## Actividad 8
+- p46-numeros-1-100
+- p46b-numeros-1-100V2
+- p47-numeros-100-1  
+- p47b-numeros-100-1V2
+- p48-arriba-abajo
+- p49-suma-pares-impares
+- p50-suma-numeros
+- p51-multiplos-suma
+- p52-base-exponenteraturas
