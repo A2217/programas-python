@@ -3,9 +3,9 @@
 print("Imprime un número elevado a uan potencia")
 base = int(input("Base: "))
 exp = int(input("Exponente: "))
-res = 1
+p = 1
 
 for _ in range(exp):
-    res *= base
+    p *= base
 
-print(f"{base} ^ {exp} = {res}" )
+print(f"{base} ^ {exp} = {p}" )
