@@ -88,3 +88,11 @@
 - p50-suma-numeros
 - p51-multiplos-suma
 - p52-base-exponenteraturas
+
+## Actividad 9
+- p53-factorial
+- p54-tabla-multiplicar
+- p55-tablas-multiplicar
+- p56-piramide-caracter
+- p57-factorial-numeros
+- p58-combina-colores
