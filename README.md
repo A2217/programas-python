@@ -103,3 +103,10 @@
 - p61-secuencia-numeros-1
 - p62–secuencia-numeros-2
 - p63-secuencia-terminos-1
+
+## Actividad 10
+- p64–acceder-lista
+- p65–cambiar-lista
+- p66–agregar-lista
+- p67–remover-lista
+- p68–iterar-lista
