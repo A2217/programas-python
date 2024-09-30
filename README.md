@@ -117,3 +117,11 @@
 - p71-dia-paga
 - p72-nombres-edades
 - p73-listas-aleatorios
+
+## Tarea 5
+- p74-procesar-notas
+- p75-lista-multiplica
+- p76-meses-dia-nombre
+- p77-lista-aleatorios-suma
+- p78-ciudades
+- p79-lista-impares
