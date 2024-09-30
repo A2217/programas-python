@@ -110,3 +110,10 @@
 - p66–agregar-lista
 - p67–remover-lista
 - p68–iterar-lista
+
+## Acttividad 11
+- p69-procesar-calificaciones
+- p70-sumar-listas
+- p71-dia-paga
+- p72-nombres-edades
+- p73-listas-aleatorios
