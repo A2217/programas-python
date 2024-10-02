@@ -130,3 +130,5 @@
 - p80–estudiante
 - p81–calificaciones
 - p82–nombres y edades
+- p83-conversion-medida
+- p84-conversion-moneda
