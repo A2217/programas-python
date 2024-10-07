@@ -132,3 +132,18 @@
 - p82–nombres y edades
 - p83-conversion-medida
 - p84-conversion-moneda
+
+## Actividad 13
+- p85-procesar-pizza
+- p86-lista-dicc-auto
+- p87-lista-dicc-estudiante
+- p88-cliente-productos
+- p89-area-figuras
+
+## Tarea 6
+- p90-crear-acceder-diccionario
+- p91-modificar-diccionario
+- p92-agregar-diccionario
+- p93-eliminar-diccionario
+- p94-procesar-diccionario
+- p95-contar-caracteres
