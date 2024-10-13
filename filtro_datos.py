@@ -6,7 +6,8 @@ from scipy.signal import savgol_filter
 # Cargar los datos
 
 #data = pd.read_excel('G:\\dropbox\\Dropbox\\Ensayos Lab Res Mat\\27_09 Tesis y pruebas\\Ensayos tesis\\ensayo 1.xlsx')
-data = pd.read_excel('G:\\dropbox\\Dropbox\\Ensayos Lab Res Mat\\27_09 Tesis y pruebas\\Ensayos tesis\\ensayo 2 - edit 2.xlsx')
+#G:\\dropbox\\Dropbox\\Ensayos Lab Res Mat\\11_10  tesis\\Ensayo 1.xlsx
+data = pd.read_excel('G:\\dropbox\\Dropbox\\Ensayos Lab Res Mat\\11_10  tesis\\ensayo 5.xlsx')
 
 
 # Excluir la columna de tiempo y definir la columna de control
@@ -58,4 +59,4 @@ data[f'{columna_control}_Filtrado_Suavizado'] = pd.Series(data[f'{columna_contro
 
 # Guardar los datos procesados en un nuevo archivo
 ##data.to_excel('G:\\dropbox\\Dropbox\\Ensayos Lab Res Mat\\27_09 Tesis y pruebas\\Ensayos tesis\\ensayo 1 Analizado_completo.xlsx', index=False)
-data.to_excel('G:\\dropbox\\Dropbox\\Ensayos Lab Res Mat\\27_09 Tesis y pruebas\\Ensayos tesis\\ensayo 2 - edit 2 Analizado_completo.xlsx', index=False)
+data.to_excel('G:\\dropbox\\Dropbox\\Ensayos Lab Res Mat\\11_10  tesis\\ensayo 5.xlsx', index=False)

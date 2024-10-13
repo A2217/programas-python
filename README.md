@@ -147,3 +147,11 @@
 - p93-eliminar-diccionario
 - p94-procesar-diccionario
 - p95-contar-caracteres
+
+## Actividad 14
+- p96–trabajando-conjuntos
+- p97-operaciones-conjuntos
+
+## Tarea 7
+- p98–personas
+- p99–numeros
