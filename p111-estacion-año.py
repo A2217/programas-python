@@ -9,7 +9,7 @@ def estacion(n):
     elif n==4:
         est='Invierno'
     else:
-        est=''
+        est='Numero no valido'
     return est
 
 n = int(input('Dame la estacion del año (1-4) ? '))
