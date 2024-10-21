@@ -1,0 +1,32 @@
+import pandas as pd
+import numpy as np
+from sklearn.linear_model import LinearRegression
+
+# Cargar los datos desde el archivo Excel
+file_path = r'G:\Escritorio\datos filtrar\este.xlsx'
+data = pd.read_excel(file_path)
+
+# Verificar que la columna 'lecturas' existe
+if 'lecturas' not in data.columns:
+    raise KeyError("La columna 'lecturas' debe estar presente en los datos")
+
+# Normalizar los datos para que comiencen desde cero
+data['lecturas'] = data['lecturas'] - data['lecturas'].min()
+
+# Suavizar los datos utilizando un método de media móvil
+data['suavizadas'] = data['lecturas'].rolling(window=5).mean()
+
+# Filtrar los datos para conservar solo los valores crecientes
+filtrados = []
+ultima_lectura = -float('inf')  # Inicializar con un valor muy bajo
+for index, row in data.iterrows():
+    if row['suavizadas'] >= ultima_lectura:
+        filtrados.append(row)
+        ultima_lectura = row['suavizadas']
+
+data_filtrada = pd.DataFrame(filtrados)
+
+# Guardar los datos originales, suavizados y filtrados en un nuevo archivo Excel
+output_path = r'G:\Escritorio\datos filtrar\datos_normalizados_suavizados_filtrados.xlsx'
+data['filtrada'] = data['suavizadas'].apply(lambda x: x if x in data_filtrada['suavizadas'].values else np.nan)
+data.to_excel(output_path, index=False)
