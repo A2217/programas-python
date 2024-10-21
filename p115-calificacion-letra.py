@@ -1,11 +1,11 @@
 # Calificación con letra
 
 def califletra(cal):
-    if cal>=90 and cal<100:
+    if cal>=90 and cal<=100:
         return 'A', 'Excelente'
     elif cal>=80 and cal<90:
         return 'B', 'Bien'
-    elif cal>=70 and cal<=80:
+    elif cal>=70 and cal<80:
         return 'C', 'Suficiente'
     elif cal>=60 and cal<70:
         return 'D', 'Deficiente'
