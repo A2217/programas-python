@@ -7,6 +7,6 @@ def sumadigitos(n):
         n = n // 10
     return suma
 
-n = int(input("Dame un número y sumaré sus dígitos :? "))
+n = int(input("Dame un número y sumaré sus dígitos: "))
 res = sumadigitos(n)
 print(f"La suma de los dígitos de {n} es {res}")

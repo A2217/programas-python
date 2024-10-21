@@ -12,6 +12,6 @@ def califletra(cal):
     elif cal>=0 and cal<60:
         return 'F', 'Reprobado'
 
-calificacion = int(input('Dame una calificacion entre 1 y 100 ? '))
+calificacion = int(input('Dame una calificacion entre 1 y 100: '))
 letra , mensaje = califletra(calificacion)
 print(f'Tu calificacion de {calificacion} corresponde a {letra} y esta {mensaje}')

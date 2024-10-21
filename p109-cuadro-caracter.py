@@ -5,7 +5,7 @@ def cuadro_caracter(r, c, car):
             print(car, end=' ')
         print('\r')
 
-r = int(input('Cuantos renglones ? '))
-c = int(input('Cuantas columnas ? '))
-car = input('Cual catacter ? ')
+r = int(input('Cuantos renglones? '))
+c = int(input('Cuantas columnas? '))
+car = input('Cual caracter? ')
 cuadro_caracter(r, c, car)

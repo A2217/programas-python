@@ -6,5 +6,5 @@ def factorial(numero):
         f = f * n
     return f
 
-num = int(input("Dame un número ? "))
+num = int(input("Dame un número: "))
 print(f"El factorial de {num} es {factorial(num)}" )
