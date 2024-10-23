@@ -176,3 +176,15 @@
 - p114-factorial
 - p115-calificacion-letra
 - p116-suma-rango
+
+## Actividad 16
+- p117-suma-lista
+- p118-pares-lista
+- p119-mayor-menor
+- p120-mayores-promedio
+- p121-pares-impares
+- p122-aleatorios
+- p123-nombres
+- p124-funciones
+- p125-usa-funciones
+- p126-modulos-integrados
