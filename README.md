@@ -188,3 +188,12 @@
 - p124-funciones
 - p125-usa-funciones
 - p126-modulos-integrados
+
+## Tarea 8
+- p127-numero-menor
+- p128-dia-semana
+- p129-medidas-longitud
+- p130-suma-pares-impares
+- p131-suma-digitos-lista
+- p132-calcula-factoriales
+- p133-estadisticas-basicas
