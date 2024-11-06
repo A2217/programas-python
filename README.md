@@ -204,5 +204,11 @@
 - p136-circulo
 - p137-rectangulo
 
-# Tarea 9
+## Tarea 9
 - p138-articulo
+
+## Actividad 18 
+- p139-ventas
+
+## Tercer examen parcial
+- p140-tecer-examen-parcial
